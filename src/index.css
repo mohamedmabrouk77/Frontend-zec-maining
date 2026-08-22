@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.skeleton{background:linear-gradient(90deg,#e5e7eb 25%,#f3f4f6 50%,#e5e7eb 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:.5rem}
+::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:#f1f1f1}::-webkit-scrollbar-thumb{background:var(--primary-color,#0d9488);border-radius:2px}
+.swiper-pagination-bullet-active{background:var(--primary-color,#0d9488)!important}
+input:focus,select:focus,textarea:focus{outline:none;box-shadow:0 0 0 2px var(--primary-color,#0d9488)}.dir-ltr{direction:ltr}
