@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "npm install --legacy-peer-deps --ignore-scripts",
+  "installCommand": "npm install --no-bin-links",
   "buildCommand": "npm run build",
   "outputDirectory": "build"
 }
